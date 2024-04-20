@@ -3,7 +3,10 @@
   margin: 0;
 }
 * body {
-  background-color: rgb(3, 3, 82);
+  background-color: black;
+}
+* body .luminex_page {
+  background-image: url("./img/Background_Luminex.png");
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -11,7 +14,7 @@
   gap: 3em;
   height: 100vh;
 }
-* body .top_square {
+* body .luminex_page .top_square {
   width: 75em;
   height: 20em;
   display: flex;
@@ -20,21 +23,21 @@
   border-radius: 10px;
   gap: 4em;
 }
-* body .top_square #lights {
-  border-radius: 10px;
+* body .luminex_page .top_square #lights {
+  border-radius: 5px;
   width: 25em;
   height: 15em;
 }
-* body .top_square .left_square {
+* body .luminex_page .top_square .right_square {
   display: flex;
   align-items: center;
-  border: 1px solid white;
+  border: 4px solid rgba(218, 211, 211, 0.3568627451);
   background-color: black;
   border-radius: 10px;
   width: 65em;
   height: 15em;
 }
-* body .top_square .left_square .solutions {
+* body .luminex_page .top_square .right_square .solutions {
   color: aqua;
   font-size: 1.7rem;
   font-family: "Inter", sans-serif;
@@ -43,7 +46,7 @@
   left: 2em;
   width: 55%;
 }
-* body .top_square .left_square .solutions::before {
+* body .luminex_page .top_square .right_square .solutions::before {
   content: "";
   position: absolute;
   bottom: -10px;
@@ -53,36 +56,36 @@
   width: 80%;
   background-color: white;
 }
-* body .bottom_square {
+* body .luminex_page .bottom_square {
   background-color: blueviolet;
   width: 65em;
   height: 15em;
   background-color: black;
-  border: 1px solid white;
+  border: 4px solid rgba(218, 211, 211, 0.3568627451);
   border-radius: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-* body .bottom_square .all_squares {
+* body .luminex_page .bottom_square .all_squares {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 2em;
 }
-* body .bottom_square .all_squares .square {
+* body .luminex_page .bottom_square .all_squares .square {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-* body .bottom_square .all_squares .square a {
+* body .luminex_page .bottom_square .all_squares .square a {
   position: absolute;
   color: white;
   text-decoration: none;
   font-family: "Inter", sans-serif;
   font-weight: bold;
 }
-* body .bottom_square .all_squares .square a::before {
+* body .luminex_page .bottom_square .all_squares .square a::before {
   content: "";
   position: absolute;
   bottom: -8px;
@@ -93,11 +96,11 @@
   background-color: aqua;
   opacity: 0;
 }
-* body .bottom_square .all_squares .square a:hover:before {
+* body .luminex_page .bottom_square .all_squares .square a:hover:before {
   opacity: 1;
   transition: 0.3s all ease-in;
 }
-* body .bottom_square .all_squares .square #light_one {
+* body .luminex_page .bottom_square .all_squares .square #light_one {
   width: 13em;
   height: 13em;
   border-radius: 30px;
