@@ -2,34 +2,86 @@
   margin: 0;
 }
 * body {
-  background-color: black;
+  background-color: rgb(3, 3, 82);
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 3em;
   height: 100vh;
 }
-* body .square {
+* body .top_square {
+  width: 75em;
+  height: 20em;
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 2px solid white;
   border-radius: 10px;
-  width: 50em;
-  height: 30em;
+  gap: 4em;
 }
-* body .square .word {
+* body .top_square #lights {
+  border-radius: 10px;
+  width: 25em;
+  height: 15em;
+}
+* body .top_square .left_square {
+  display: flex;
+  align-items: center;
+  border: 1px solid white;
+  background-color: black;
+  border-radius: 10px;
+  width: 65em;
+  height: 15em;
+}
+* body .top_square .left_square .word {
   color: aqua;
-  font-size: 3rem;
+  font-size: 2rem;
   font-family: "Courier New", Courier, monospace;
   position: relative;
+  left: 2em;
+  width: 12em;
 }
-* body .square .word::before {
+* body .top_square .left_square .word::before {
   content: "";
   position: absolute;
   bottom: -8px;
   left: 0;
   right: 0;
-  height: 10px;
+  height: 7px;
   width: 120%;
-  background-color: wheat;
+  background-color: white;
+}
+* body .bottom_square {
+  background-color: blueviolet;
+  width: 65em;
+  height: 15em;
+  background-color: black;
+  border: 1px solid white;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+* body .bottom_square .all_squares {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+}
+* body .bottom_square .all_squares .square {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+* body .bottom_square .all_squares .square a {
+  position: absolute;
+  color: white;
+  text-decoration: none;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+}
+* body .bottom_square .all_squares .square #light_one {
+  width: 13em;
+  height: 13em;
 }/*# sourceMappingURL=styles.css.map */
