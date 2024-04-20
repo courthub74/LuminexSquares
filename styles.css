@@ -72,7 +72,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 10px;
 }
 * body .bottom_square .all_squares .square a {
   position: absolute;
@@ -81,7 +80,23 @@
   font-family: "Courier New", Courier, monospace;
   font-weight: bold;
 }
+* body .bottom_square .all_squares .square a::before {
+  content: "";
+  position: absolute;
+  bottom: -8px;
+  left: 0;
+  right: 0;
+  height: 4px;
+  width: 120%;
+  background-color: aqua;
+  opacity: 0;
+}
+* body .bottom_square .all_squares .square a:hover:before {
+  opacity: 1;
+  transition: 0.3s all ease-in;
+}
 * body .bottom_square .all_squares .square #light_one {
   width: 13em;
   height: 13em;
+  border-radius: 30px;
 }/*# sourceMappingURL=styles.css.map */
