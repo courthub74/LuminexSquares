@@ -193,7 +193,7 @@ $borderfont: #dad3d35b;
                         width: 65em;
                         height: 15em;
                         .solutions {
-                            color: aqua;
+                            color: $bluetext;
                             font-size: 1.7rem;
                             font-family: 'Inter', sans-serif;
                             font-weight: bold;
@@ -249,7 +249,7 @@ $borderfont: #dad3d35b;
                                 right: 0;
                                 height: 4px;
                                 width: 120%;
-                                background-color: aqua;
+                                background-color: $bluetext;
                                 opacity: 0;  
                             }
                             a:hover:before {

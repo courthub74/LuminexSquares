@@ -165,7 +165,7 @@
     height: 15em;
   }
   body .luminex_page .luminex_stuff .top_square .right_square .solutions {
-    color: aqua;
+    color: #66C7E5;
     font-size: 1.7rem;
     font-family: "Inter", sans-serif;
     font-weight: bold;
@@ -220,7 +220,7 @@
     right: 0;
     height: 4px;
     width: 120%;
-    background-color: aqua;
+    background-color: #66C7E5;
     opacity: 0;
   }
   body .luminex_page .luminex_stuff .bottom_square .all_squares .square a:hover:before {
