@@ -243,7 +243,7 @@
   }
   body .luminex_page footer .top_footer_contents .co_name_logo {
     display: flex;
-    margin: 1em 0 0 4em;
+    margin: 2em 0 0 4em;
   }
   body .luminex_page footer .top_footer_contents .co_name_logo .logo_name {
     display: flex;
@@ -265,6 +265,7 @@
     display: flex;
     gap: 4em;
     margin: 1em 0 0 5em;
+    margin: 1.5em 0 0 5em;
   }
   body .luminex_page footer .top_footer_contents .co_name_logo .footer_list .footer_list_contents {
     display: flex;
@@ -352,7 +353,7 @@
     font-size: small;
     font-family: "Inter", sans-serif;
     gap: 0.5em;
-    margin-top: 4em;
+    margin-top: 3em;
     margin-right: -9em;
   }
   body .luminex_page footer .copyrights #courdevelops {
