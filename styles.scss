@@ -266,93 +266,100 @@ $borderfont: #dad3d35b;
                 }
             }
             footer {
-                height: 12em;
+                height: 17em;
                 display: flex;
-                padding: 1em;
-                // Company Logo
-                .co_name_logo {
-                    // Make this fixed within window
+                flex-direction: column;
+                .top_footer_contents {
                     display: flex;
-                    // background-color: red;
-                    margin: 1em 0 0 4em;
-                    .logo_name {
+                    padding: 1em;
+                     // Company Logo
+                    .co_name_logo {
+                        // Make this fixed within window
                         display: flex;
-                        justify-content: center;
-                        align-items: center;
-                        margin-top: -8em;
-                        #lightbulb {
-                            width: 1em;
-                            height: 1em;
-                        }
-                        p {
-                            color: $headerfont;
-                            color: white;
-                            font-family: 'Inter', sans-serif;
-                            font-size: 1rem;
-                        }
-                    }
-                    // footer list
-                    .footer_list {
-                        display: flex;
-                        gap: 4em;
-                        margin: 1em 0 0 5em;
-                        .footer_list_contents {
+                        // background-color: red;
+                        margin: 1em 0 0 4em;
+                        .logo_name {
                             display: flex;
-                            flex-direction: column;
-                            gap: 1em;
-                            a {
+                            justify-content: center;
+                            align-items: center;
+                            margin-top: 0em;
+                            #lightbulb {
+                                width: 1em;
+                                height: 1em;
+                            }
+                            p {
+                                color: $headerfont;
                                 color: white;
                                 font-family: 'Inter', sans-serif;
-                                font-size: .8rem;
-                                text-decoration: none;
+                                font-size: 1rem;
                             }
                         }
-                        .footer_list_contents_two {
+                        // footer list
+                        .footer_list {
                             display: flex;
-                            flex-direction: column;
-                            gap: 1em;
-                            a {
-                                color: white;
-                                font-family: 'Inter', sans-serif;
-                                font-size: .8rem;
-                                text-decoration: none;
+                            gap: 4em;
+                            margin: 1em 0 0 5em;
+                            .footer_list_contents {
+                                display: flex;
+                                flex-direction: column;
+                                gap: 1em;
+                                a {
+                                    color: white;
+                                    font-family: 'Inter', sans-serif;
+                                    font-size: .8rem;
+                                    text-decoration: none;
+                                }
+                            }
+                            .footer_list_contents_two {
+                                display: flex;
+                                flex-direction: column;
+                                gap: 1em;
+                                a {
+                                    color: white;
+                                    font-family: 'Inter', sans-serif;
+                                    font-size: .8rem;
+                                    text-decoration: none;
+                                }
                             }
                         }
                     }
-                }
-                // Email Sign Up
-                .sign_up_div {
-                    margin: 3em 0 0 6em;
-                    display: flex;
-                    flex-direction: column;
-                    gap: .5em;
-                    small {
-                        color: $bluetext;
-                        font-family: 'Inter', sans-serif;
-                        font-weight: bold;
-                    }
-                    .email_input {
-                        input {
-                            background-color: $headerfont;
-                            border-radius: 5px;
-                            width: 25em;
-                            height: 3em;
-                            border: none;
-                        }
-                        button {
-                            background-color: $bluetext;
-                            // background-color: $borderfont;
-                            color: white;
+                    // Email Sign Up
+                    .sign_up_div {
+                        margin: 3em 0 0 6em;
+                        display: flex;
+                        flex-direction: column;
+                        gap: .5em;
+                        small {
+                            color: $bluetext;
                             font-family: 'Inter', sans-serif;
                             font-weight: bold;
-                            border-radius: 5px;
-                            width: 10em;
-                            height: 3em;
-                            border-radius: 5px;
-                            border: none;
                         }
+                        .email_input {
+                            input {
+                                background-color: $headerfont;
+                                border-radius: 5px;
+                                width: 25em;
+                                height: 3em;
+                                border: none;
+                            }
+                            button {
+                                background-color: $bluetext;
+                                // background-color: $borderfont;
+                                color: black;
+                                font-family: 'Inter', sans-serif;
+                                font-weight: bold;
+                                border-radius: 5px;
+                                width: 10em;
+                                height: 3em;
+                                border-radius: 5px;
+                                border: none;
+                                cursor: pointer;
+                            }
+                        }
+                        
                     }
                 }
+               
                 // Socials
                 .connect_with {
                     display: flex;
@@ -369,10 +376,34 @@ $borderfont: #dad3d35b;
                         align-items: center;
                         justify-content: center;
                         gap: 1.8em;
+                        #twitter {
+                            width: 1.8em;
+                            height: 1.8em;
+                        }
                         .soc_icon {
                             width: 2em;
                             height: 2em;
                         }
+                        
+                    }
+                }
+                // Copyrights
+                .copyrights {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    color: $bluetext;
+                    color: white;
+                    font-size: small;
+                    font-family: 'Inter', sans-serif;
+                    // font-weight: bold;
+                    gap: .5em;
+                    // margin: 5em 0em 0 -80em;
+                    margin-top: 4em;
+                    margin-right: -9em;
+                    #courdevelops {
+                        width: 2em;
+                        height: 2em;
                     }
                 }
             }

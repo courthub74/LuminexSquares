@@ -233,78 +233,82 @@
     border-radius: 30px;
   }
   body .luminex_page footer {
-    height: 12em;
+    height: 17em;
+    display: flex;
+    flex-direction: column;
+  }
+  body .luminex_page footer .top_footer_contents {
     display: flex;
     padding: 1em;
   }
-  body .luminex_page footer .co_name_logo {
+  body .luminex_page footer .top_footer_contents .co_name_logo {
     display: flex;
     margin: 1em 0 0 4em;
   }
-  body .luminex_page footer .co_name_logo .logo_name {
+  body .luminex_page footer .top_footer_contents .co_name_logo .logo_name {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: -8em;
+    margin-top: 0em;
   }
-  body .luminex_page footer .co_name_logo .logo_name #lightbulb {
+  body .luminex_page footer .top_footer_contents .co_name_logo .logo_name #lightbulb {
     width: 1em;
     height: 1em;
   }
-  body .luminex_page footer .co_name_logo .logo_name p {
+  body .luminex_page footer .top_footer_contents .co_name_logo .logo_name p {
     color: #DAD3D3;
     color: white;
     font-family: "Inter", sans-serif;
     font-size: 1rem;
   }
-  body .luminex_page footer .co_name_logo .footer_list {
+  body .luminex_page footer .top_footer_contents .co_name_logo .footer_list {
     display: flex;
     gap: 4em;
     margin: 1em 0 0 5em;
   }
-  body .luminex_page footer .co_name_logo .footer_list .footer_list_contents {
+  body .luminex_page footer .top_footer_contents .co_name_logo .footer_list .footer_list_contents {
     display: flex;
     flex-direction: column;
     gap: 1em;
   }
-  body .luminex_page footer .co_name_logo .footer_list .footer_list_contents a {
+  body .luminex_page footer .top_footer_contents .co_name_logo .footer_list .footer_list_contents a {
     color: white;
     font-family: "Inter", sans-serif;
     font-size: 0.8rem;
     text-decoration: none;
   }
-  body .luminex_page footer .co_name_logo .footer_list .footer_list_contents_two {
+  body .luminex_page footer .top_footer_contents .co_name_logo .footer_list .footer_list_contents_two {
     display: flex;
     flex-direction: column;
     gap: 1em;
   }
-  body .luminex_page footer .co_name_logo .footer_list .footer_list_contents_two a {
+  body .luminex_page footer .top_footer_contents .co_name_logo .footer_list .footer_list_contents_two a {
     color: white;
     font-family: "Inter", sans-serif;
     font-size: 0.8rem;
     text-decoration: none;
   }
-  body .luminex_page footer .sign_up_div {
+  body .luminex_page footer .top_footer_contents .sign_up_div {
     margin: 3em 0 0 6em;
     display: flex;
     flex-direction: column;
     gap: 0.5em;
   }
-  body .luminex_page footer .sign_up_div small {
+  body .luminex_page footer .top_footer_contents .sign_up_div small {
     color: #66C7E5;
     font-family: "Inter", sans-serif;
     font-weight: bold;
   }
-  body .luminex_page footer .sign_up_div .email_input input {
+  body .luminex_page footer .top_footer_contents .sign_up_div .email_input input {
     background-color: #DAD3D3;
     border-radius: 5px;
     width: 25em;
     height: 3em;
     border: none;
   }
-  body .luminex_page footer .sign_up_div .email_input button {
+  body .luminex_page footer .top_footer_contents .sign_up_div .email_input button {
     background-color: #66C7E5;
-    color: white;
+    color: black;
     font-family: "Inter", sans-serif;
     font-weight: bold;
     border-radius: 5px;
@@ -312,6 +316,7 @@
     height: 3em;
     border-radius: 5px;
     border: none;
+    cursor: pointer;
   }
   body .luminex_page footer .connect_with {
     display: flex;
@@ -330,7 +335,27 @@
     justify-content: center;
     gap: 1.8em;
   }
+  body .luminex_page footer .connect_with .socials #twitter {
+    width: 1.8em;
+    height: 1.8em;
+  }
   body .luminex_page footer .connect_with .socials .soc_icon {
+    width: 2em;
+    height: 2em;
+  }
+  body .luminex_page footer .copyrights {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #66C7E5;
+    color: white;
+    font-size: small;
+    font-family: "Inter", sans-serif;
+    gap: 0.5em;
+    margin-top: 4em;
+    margin-right: -9em;
+  }
+  body .luminex_page footer .copyrights #courdevelops {
     width: 2em;
     height: 2em;
   }
