@@ -293,7 +293,8 @@ $borderfont: #dad3d35b;
                     }
                     // footer list
                     .footer_list {
-                        // display: flex;
+                        display: flex;
+                        gap: 4em;
                         margin: 1em 0 0 5em;
                         .footer_list_contents {
                             display: flex;
@@ -306,9 +307,74 @@ $borderfont: #dad3d35b;
                                 text-decoration: none;
                             }
                         }
+                        .footer_list_contents_two {
+                            display: flex;
+                            flex-direction: column;
+                            gap: 1em;
+                            a {
+                                color: white;
+                                font-family: 'Inter', sans-serif;
+                                font-size: .8rem;
+                                text-decoration: none;
+                            }
+                        }
                     }
                 }
-            
+                // Email Sign Up
+                .sign_up_div {
+                    margin: 3em 0 0 6em;
+                    display: flex;
+                    flex-direction: column;
+                    gap: .5em;
+                    small {
+                        color: $bluetext;
+                        font-family: 'Inter', sans-serif;
+                        font-weight: bold;
+                    }
+                    .email_input {
+                        input {
+                            background-color: $headerfont;
+                            border-radius: 5px;
+                            width: 25em;
+                            height: 3em;
+                            border: none;
+                        }
+                        button {
+                            background-color: $bluetext;
+                            // background-color: $borderfont;
+                            color: white;
+                            font-family: 'Inter', sans-serif;
+                            font-weight: bold;
+                            border-radius: 5px;
+                            width: 10em;
+                            height: 3em;
+                            border-radius: 5px;
+                            border: none;
+                        }
+                    }
+                }
+                // Socials
+                .connect_with {
+                    display: flex;
+                    flex-direction: column;
+                    gap: .8em;
+                    margin: 3em 0 0 5em;
+                    small {
+                        color: white;
+                        font-family: 'Inter', sans-serif;
+                        font-weight: bold;
+                    }
+                    .socials {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        gap: 1.8em;
+                        .soc_icon {
+                            width: 2em;
+                            height: 2em;
+                        }
+                    }
+                }
             }
         }
     }
