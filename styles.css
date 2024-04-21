@@ -232,4 +232,43 @@
     height: 13em;
     border-radius: 30px;
   }
+  body .luminex_page footer {
+    height: 12em;
+    display: flex;
+    padding: 1em;
+  }
+  body .luminex_page footer .co_name_logo {
+    display: flex;
+    margin: 1em 0 0 4em;
+  }
+  body .luminex_page footer .co_name_logo .logo_name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -8em;
+  }
+  body .luminex_page footer .co_name_logo .logo_name #lightbulb {
+    width: 1em;
+    height: 1em;
+  }
+  body .luminex_page footer .co_name_logo .logo_name p {
+    color: #DAD3D3;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+  }
+  body .luminex_page footer .co_name_logo .footer_list {
+    margin: 1em 0 0 5em;
+  }
+  body .luminex_page footer .co_name_logo .footer_list .footer_list_contents {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+  }
+  body .luminex_page footer .co_name_logo .footer_list .footer_list_contents a {
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 0.8rem;
+    text-decoration: none;
+  }
 }/*# sourceMappingURL=styles.css.map */

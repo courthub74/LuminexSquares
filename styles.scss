@@ -265,6 +265,51 @@ $borderfont: #dad3d35b;
                     }
                 }
             }
+            footer {
+                height: 12em;
+                display: flex;
+                padding: 1em;
+                // Company Logo
+                .co_name_logo {
+                    // Make this fixed within window
+                    display: flex;
+                    // background-color: red;
+                    margin: 1em 0 0 4em;
+                    .logo_name {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        margin-top: -8em;
+                        #lightbulb {
+                            width: 1em;
+                            height: 1em;
+                        }
+                        p {
+                            color: $headerfont;
+                            color: white;
+                            font-family: 'Inter', sans-serif;
+                            font-size: 1rem;
+                        }
+                    }
+                    // footer list
+                    .footer_list {
+                        // display: flex;
+                        margin: 1em 0 0 5em;
+                        .footer_list_contents {
+                            display: flex;
+                            flex-direction: column;
+                            gap: 1em;
+                            a {
+                                color: white;
+                                font-family: 'Inter', sans-serif;
+                                font-size: .8rem;
+                                text-decoration: none;
+                            }
+                        }
+                    }
+                }
+            
+            }
         }
     }
 }
