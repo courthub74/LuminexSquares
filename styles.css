@@ -263,7 +263,7 @@
   }
   body .luminex_page footer .top_footer_contents .co_name_logo .footer_list {
     display: flex;
-    gap: 3em;
+    gap: 1.2em;
     margin: 1em 0 0 5em;
     margin: 1.5em 0 0 5em;
   }
@@ -306,8 +306,8 @@
   body .luminex_page footer .top_footer_contents .sign_up_div .email_input input {
     background-color: #DAD3D3;
     border-radius: 5px;
-    width: 14em;
-    height: 2em;
+    width: 17em;
+    height: 3em;
     border: none;
   }
   body .luminex_page footer .top_footer_contents .sign_up_div .email_input button {
@@ -317,7 +317,7 @@
     font-weight: bold;
     border-radius: 5px;
     width: 7em;
-    height: 2.2em;
+    height: 3em;
     border-radius: 5px;
     border: none;
     cursor: pointer;
