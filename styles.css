@@ -263,6 +263,349 @@
   }
   body .luminex_page footer .top_footer_contents .co_name_logo .footer_list {
     display: flex;
+    gap: 3em;
+    margin: 1em 0 0 5em;
+    margin: 1.5em 0 0 5em;
+  }
+  body .luminex_page footer .top_footer_contents .co_name_logo .footer_list .footer_list_contents {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+  }
+  body .luminex_page footer .top_footer_contents .co_name_logo .footer_list .footer_list_contents a {
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 0.8rem;
+    text-decoration: none;
+  }
+  body .luminex_page footer .top_footer_contents .co_name_logo .footer_list .footer_list_contents_two {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+  }
+  body .luminex_page footer .top_footer_contents .co_name_logo .footer_list .footer_list_contents_two a {
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 0.8rem;
+    text-decoration: none;
+  }
+  body .luminex_page footer .top_footer_contents .sign_up_div {
+    margin: 3em 0 0 6em;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+  }
+  body .luminex_page footer .top_footer_contents .sign_up_div small {
+    color: #66C7E5;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+  }
+  body .luminex_page footer .top_footer_contents .sign_up_div .email_input {
+    display: flex;
+  }
+  body .luminex_page footer .top_footer_contents .sign_up_div .email_input input {
+    background-color: #DAD3D3;
+    border-radius: 5px;
+    width: 14em;
+    height: 2em;
+    border: none;
+  }
+  body .luminex_page footer .top_footer_contents .sign_up_div .email_input button {
+    background-color: #66C7E5;
+    color: black;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    border-radius: 5px;
+    width: 7em;
+    height: 2.2em;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  }
+  body .luminex_page footer .connect_with {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8em;
+    margin: 3em 0 0 3em;
+  }
+  body .luminex_page footer .connect_with small {
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+  }
+  body .luminex_page footer .connect_with .socials {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.8em;
+  }
+  body .luminex_page footer .connect_with .socials #twitter {
+    width: 1.8em;
+    height: 1.8em;
+  }
+  body .luminex_page footer .connect_with .socials .soc_icon {
+    width: 2em;
+    height: 2em;
+  }
+  body .luminex_page footer .copyrights {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #66C7E5;
+    color: white;
+    font-size: small;
+    font-family: "Inter", sans-serif;
+    gap: 0.5em;
+    margin-top: 3em;
+    margin-right: -9em;
+  }
+  body .luminex_page footer .copyrights #courdevelops {
+    width: 2em;
+    height: 2em;
+  }
+}
+@media only screen and (min-width: 1500px) {
+  body {
+    background-color: black;
+  }
+  body .luminex_page {
+    display: flex;
+    flex-direction: column;
+  }
+  body .luminex_page nav {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4em;
+  }
+  body .luminex_page nav .co_name_logo {
+    margin: 0 0 0 10ch;
+  }
+  body .luminex_page nav .co_name_logo .logo_name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  body .luminex_page nav .co_name_logo .logo_name #lightbulb {
+    width: 1.4em;
+    height: 1.4em;
+  }
+  body .luminex_page nav .co_name_logo .logo_name p {
+    color: #DAD3D3;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 1.5rem;
+  }
+  body .luminex_page nav .nav_links {
+    display: flex;
+    gap: 3ch;
+    position: relative;
+    right: 17ch;
+  }
+  body .luminex_page nav .nav_links .home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1ch;
+  }
+  body .luminex_page nav .nav_links .home #home {
+    width: 1.5em;
+    height: 1.5em;
+  }
+  body .luminex_page nav .nav_links .home a {
+    color: #DAD3D3;
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    text-decoration: none;
+  }
+  body .luminex_page nav .nav_links .summary {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1ch;
+  }
+  body .luminex_page nav .nav_links .summary #summary {
+    width: 1.5em;
+    height: 1.5em;
+  }
+  body .luminex_page nav .nav_links .summary a {
+    color: #DAD3D3;
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    text-decoration: none;
+  }
+  body .luminex_page nav .nav_links .insights {
+    position: relative;
+    display: inline-block;
+  }
+  body .luminex_page nav .nav_links .insights .dropbtn {
+    background-color: black;
+    color: #DAD3D3;
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+  }
+  body .luminex_page nav .nav_links .insights .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 120px;
+    min-height: 80px;
+    border: 2px solid rgba(218, 211, 211, 0.3568627451);
+    border-radius: 10px;
+    transition: 0.6s all ease-in;
+    z-index: 1;
+    padding: 1em;
+  }
+  body .luminex_page nav .nav_links .insights .dropdown-content a {
+    color: #DAD3D3;
+    text-decoration: none;
+    display: block;
+    font-family: "Inter", sans-serif;
+    padding: 0.5em 0.1em;
+  }
+  body .luminex_page nav .nav_links .insights .dropdown-content a:hover {
+    background-color: rgba(218, 211, 211, 0.3568627451);
+    background-color: white;
+    color: #66C7E5;
+    color: black;
+    border-radius: 5px;
+  }
+  body .luminex_page nav .nav_links .insights:hover .dropdown-content {
+    display: block;
+  }
+  body .luminex_page .luminex_stuff {
+    background-image: url("./img/Background_Luminex.png");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 93vh;
+  }
+  body .luminex_page .luminex_stuff .top_square {
+    width: 75em;
+    height: 20em;
+    display: flex;
+    justify-content: center;
+    margin: 40px 0 30px 0;
+    border-radius: 10px;
+    gap: 4em;
+  }
+  body .luminex_page .luminex_stuff .top_square #lights {
+    border-radius: 5px;
+    width: 25em;
+    height: 15em;
+  }
+  body .luminex_page .luminex_stuff .top_square .right_square {
+    display: flex;
+    align-items: center;
+    border: 4px solid rgba(218, 211, 211, 0.3568627451);
+    background-color: black;
+    border-radius: 10px;
+    width: 65em;
+    height: 15em;
+  }
+  body .luminex_page .luminex_stuff .top_square .right_square .solutions {
+    color: #66C7E5;
+    font-size: 1.7rem;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    position: relative;
+    left: 2em;
+    width: 55%;
+  }
+  body .luminex_page .luminex_stuff .top_square .right_square .solutions::before {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    right: 0;
+    height: 6px;
+    width: 80%;
+    background-color: white;
+  }
+  body .luminex_page .luminex_stuff .bottom_square {
+    background-color: blueviolet;
+    width: 65em;
+    height: 15em;
+    background-color: black;
+    border: 4px solid rgba(218, 211, 211, 0.3568627451);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  body .luminex_page .luminex_stuff .bottom_square .all_squares {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+  }
+  body .luminex_page .luminex_stuff .bottom_square .all_squares .square {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  body .luminex_page .luminex_stuff .bottom_square .all_squares .square a {
+    position: absolute;
+    color: white;
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+  }
+  body .luminex_page .luminex_stuff .bottom_square .all_squares .square a::before {
+    content: "";
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+    right: 0;
+    height: 4px;
+    width: 120%;
+    background-color: #66C7E5;
+    opacity: 0;
+  }
+  body .luminex_page .luminex_stuff .bottom_square .all_squares .square a:hover:before {
+    opacity: 1;
+    transition: 0.3s all ease-in;
+  }
+  body .luminex_page .luminex_stuff .bottom_square .all_squares .square #light_one {
+    width: 13em;
+    height: 13em;
+    border-radius: 30px;
+  }
+  body .luminex_page footer {
+    height: 17em;
+    display: flex;
+    flex-direction: column;
+  }
+  body .luminex_page footer .top_footer_contents {
+    display: flex;
+    padding: 1em;
+  }
+  body .luminex_page footer .top_footer_contents .co_name_logo {
+    display: flex;
+    margin: 2em 0 0 4em;
+  }
+  body .luminex_page footer .top_footer_contents .co_name_logo .logo_name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0em;
+  }
+  body .luminex_page footer .top_footer_contents .co_name_logo .logo_name #lightbulb {
+    width: 1em;
+    height: 1em;
+  }
+  body .luminex_page footer .top_footer_contents .co_name_logo .logo_name p {
+    color: #DAD3D3;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+  }
+  body .luminex_page footer .top_footer_contents .co_name_logo .footer_list {
+    display: flex;
     gap: 4em;
     margin: 1em 0 0 5em;
     margin: 1.5em 0 0 5em;
@@ -354,6 +697,346 @@
     font-family: "Inter", sans-serif;
     gap: 0.5em;
     margin-top: 3em;
+    margin-right: -9em;
+  }
+  body .luminex_page footer .copyrights #courdevelops {
+    width: 2em;
+    height: 2em;
+  }
+}
+@media only screen and (min-width: 1900px) {
+  body {
+    background-color: black;
+  }
+  body .luminex_page {
+    display: flex;
+    flex-direction: column;
+  }
+  body .luminex_page nav {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4em;
+  }
+  body .luminex_page nav .co_name_logo {
+    margin: 0 0 0 10ch;
+  }
+  body .luminex_page nav .co_name_logo .logo_name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  body .luminex_page nav .co_name_logo .logo_name #lightbulb {
+    width: 1.4em;
+    height: 1.4em;
+  }
+  body .luminex_page nav .co_name_logo .logo_name p {
+    color: #DAD3D3;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 1.5rem;
+  }
+  body .luminex_page nav .nav_links {
+    display: flex;
+    gap: 3ch;
+    position: relative;
+    right: 17ch;
+  }
+  body .luminex_page nav .nav_links .home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1ch;
+  }
+  body .luminex_page nav .nav_links .home #home {
+    width: 1.5em;
+    height: 1.5em;
+  }
+  body .luminex_page nav .nav_links .home a {
+    color: #DAD3D3;
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    text-decoration: none;
+  }
+  body .luminex_page nav .nav_links .summary {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1ch;
+  }
+  body .luminex_page nav .nav_links .summary #summary {
+    width: 1.5em;
+    height: 1.5em;
+  }
+  body .luminex_page nav .nav_links .summary a {
+    color: #DAD3D3;
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    text-decoration: none;
+  }
+  body .luminex_page nav .nav_links .insights {
+    position: relative;
+    display: inline-block;
+  }
+  body .luminex_page nav .nav_links .insights .dropbtn {
+    background-color: black;
+    color: #DAD3D3;
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+  }
+  body .luminex_page nav .nav_links .insights .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 120px;
+    min-height: 80px;
+    border: 2px solid rgba(218, 211, 211, 0.3568627451);
+    border-radius: 10px;
+    transition: 0.6s all ease-in;
+    z-index: 1;
+    padding: 1em;
+  }
+  body .luminex_page nav .nav_links .insights .dropdown-content a {
+    color: #DAD3D3;
+    text-decoration: none;
+    display: block;
+    font-family: "Inter", sans-serif;
+    padding: 0.5em 0.1em;
+  }
+  body .luminex_page nav .nav_links .insights .dropdown-content a:hover {
+    background-color: rgba(218, 211, 211, 0.3568627451);
+    background-color: white;
+    color: #66C7E5;
+    color: black;
+    border-radius: 5px;
+  }
+  body .luminex_page nav .nav_links .insights:hover .dropdown-content {
+    display: block;
+  }
+  body .luminex_page .luminex_stuff {
+    background-image: url("./img/Background_Luminex.png");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 93vh;
+  }
+  body .luminex_page .luminex_stuff .top_square {
+    width: 75em;
+    height: 20em;
+    display: flex;
+    justify-content: center;
+    margin: 40px 0 30px 0;
+    border-radius: 10px;
+    gap: 4em;
+  }
+  body .luminex_page .luminex_stuff .top_square #lights {
+    border-radius: 5px;
+    width: 25em;
+    height: 15em;
+  }
+  body .luminex_page .luminex_stuff .top_square .right_square {
+    display: flex;
+    align-items: center;
+    border: 4px solid rgba(218, 211, 211, 0.3568627451);
+    background-color: black;
+    border-radius: 10px;
+    width: 65em;
+    height: 15em;
+  }
+  body .luminex_page .luminex_stuff .top_square .right_square .solutions {
+    color: #66C7E5;
+    font-size: 1.7rem;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    position: relative;
+    left: 2em;
+    width: 55%;
+  }
+  body .luminex_page .luminex_stuff .top_square .right_square .solutions::before {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    right: 0;
+    height: 6px;
+    width: 80%;
+    background-color: white;
+  }
+  body .luminex_page .luminex_stuff .bottom_square {
+    background-color: blueviolet;
+    width: 65em;
+    height: 15em;
+    background-color: black;
+    border: 4px solid rgba(218, 211, 211, 0.3568627451);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  body .luminex_page .luminex_stuff .bottom_square .all_squares {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+  }
+  body .luminex_page .luminex_stuff .bottom_square .all_squares .square {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  body .luminex_page .luminex_stuff .bottom_square .all_squares .square a {
+    position: absolute;
+    color: white;
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+  }
+  body .luminex_page .luminex_stuff .bottom_square .all_squares .square a::before {
+    content: "";
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+    right: 0;
+    height: 4px;
+    width: 120%;
+    background-color: #66C7E5;
+    opacity: 0;
+  }
+  body .luminex_page .luminex_stuff .bottom_square .all_squares .square a:hover:before {
+    opacity: 1;
+    transition: 0.3s all ease-in;
+  }
+  body .luminex_page .luminex_stuff .bottom_square .all_squares .square #light_one {
+    width: 13em;
+    height: 13em;
+    border-radius: 30px;
+  }
+  body .luminex_page footer {
+    height: 17em;
+    display: flex;
+    flex-direction: column;
+  }
+  body .luminex_page footer .top_footer_contents {
+    display: flex;
+    padding: 1em;
+  }
+  body .luminex_page footer .top_footer_contents .co_name_logo {
+    display: flex;
+    margin: 2em 0 0 4em;
+  }
+  body .luminex_page footer .top_footer_contents .co_name_logo .logo_name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0em;
+  }
+  body .luminex_page footer .top_footer_contents .co_name_logo .logo_name #lightbulb {
+    width: 1em;
+    height: 1em;
+  }
+  body .luminex_page footer .top_footer_contents .co_name_logo .logo_name p {
+    color: #DAD3D3;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+  }
+  body .luminex_page footer .top_footer_contents .co_name_logo .footer_list {
+    display: flex;
+    gap: 4em;
+    margin: 1em 0 0 5em;
+    margin: 1.5em 0 0 15em;
+  }
+  body .luminex_page footer .top_footer_contents .co_name_logo .footer_list .footer_list_contents {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+  }
+  body .luminex_page footer .top_footer_contents .co_name_logo .footer_list .footer_list_contents a {
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 0.8rem;
+    text-decoration: none;
+  }
+  body .luminex_page footer .top_footer_contents .co_name_logo .footer_list .footer_list_contents_two {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+  }
+  body .luminex_page footer .top_footer_contents .co_name_logo .footer_list .footer_list_contents_two a {
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 0.8rem;
+    text-decoration: none;
+  }
+  body .luminex_page footer .top_footer_contents .sign_up_div {
+    margin: 3em 0 0 6em;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+  }
+  body .luminex_page footer .top_footer_contents .sign_up_div small {
+    color: #66C7E5;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+  }
+  body .luminex_page footer .top_footer_contents .sign_up_div .email_input input {
+    background-color: #DAD3D3;
+    border-radius: 5px;
+    width: 25em;
+    height: 3em;
+    border: none;
+  }
+  body .luminex_page footer .top_footer_contents .sign_up_div .email_input button {
+    background-color: #66C7E5;
+    color: black;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    border-radius: 5px;
+    width: 10em;
+    height: 3em;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  }
+  body .luminex_page footer .connect_with {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8em;
+    margin: 3em 0 0 5em;
+  }
+  body .luminex_page footer .connect_with small {
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+  }
+  body .luminex_page footer .connect_with .socials {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.8em;
+  }
+  body .luminex_page footer .connect_with .socials #twitter {
+    width: 1.8em;
+    height: 1.8em;
+  }
+  body .luminex_page footer .connect_with .socials .soc_icon {
+    width: 2em;
+    height: 2em;
+  }
+  body .luminex_page footer .copyrights {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #66C7E5;
+    color: white;
+    font-size: small;
+    font-family: "Inter", sans-serif;
+    gap: 0.5em;
+    margin-top: 1em;
     margin-right: -9em;
   }
   body .luminex_page footer .copyrights #courdevelops {
